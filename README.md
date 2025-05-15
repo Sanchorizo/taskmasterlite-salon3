@@ -7,7 +7,6 @@
   <hr>
 
   <p>
-    <img src="https://img.shields.io/github/actions/workflow/status/headroom80/taskmasterlite-salon3/ci-cd.yml?branch=main" alt="Build Status"><br>  
     <img src="https://img.shields.io/badge/Docs-HTML-blue" alt="Documentation"><br>  
     <img src="https://img.shields.io/badge/Tests-passing-brightgreen" alt="Tests"><br>  
   </p>
