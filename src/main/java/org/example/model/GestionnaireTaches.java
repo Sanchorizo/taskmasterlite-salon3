@@ -9,4 +9,9 @@ public class GestionnaireTaches {
     public List<Tache> listerTaches() {
         return new ArrayList<>(listeTaches);
     }
+
+    public void ajouterTache(String description) {
+        listeTaches.add(new Tache(compteurId++, description));
+    }
+    private int compteurId = 1;
 }
