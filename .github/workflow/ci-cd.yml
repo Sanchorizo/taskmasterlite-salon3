@@ -2,7 +2,7 @@ name: CI/CD - TaskMasterLite
 
 on:
   push:
-    branches: [ develop, master ]
+    branches: [ develop, main ]
 
 jobs:
   build-and-test:
