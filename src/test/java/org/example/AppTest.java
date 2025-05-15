@@ -1,7 +1,7 @@
 package org.example;
 
 
-import org.example.model.GestionnaireTaches;
+import org.example.utils.GestionnaireTaches;
 import org.example.model.Tache;
 import org.junit.jupiter.api.Test;
 

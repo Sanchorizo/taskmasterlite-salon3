@@ -1,4 +1,6 @@
-package org.example.model;
+package org.example.utils;
+
+import org.example.model.Tache;
 
 import java.util.ArrayList;
 import java.util.List;
