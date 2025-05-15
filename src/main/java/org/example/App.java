@@ -5,8 +5,22 @@ import org.example.model.Tache;
 
 import java.util.List;
 import java.util.Scanner;
+/**
+ * Point d’entrée de l’application TaskMaster Lite en ligne de commande.
+ */
 public class App {
     public static void main(String[] args) {
+        /**
+         * Boucle principale qui lit les commandes de l’utilisateur :
+         * <ul>
+         *   <li>add "description" → ajoute une tâche</li>
+         *   <li>list             → affiche toutes les tâches</li>
+         *   <li>exit             → quitte l’application</li>
+         *   <li>help             → liste les commandes</li>
+         * </ul>
+         *
+         * @param args non utilisés
+         */
         GestionnaireTaches gestionnaire = new GestionnaireTaches();
         Scanner scanner = new Scanner(System.in);
 
