@@ -36,6 +36,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Set up JDK 17 for Maven rebuild
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: 17
+          cache: 'maven'
+
+      - name: Rebuild JAR
+        run: mvn -B clean package
+
       - name: Set up Docker metadata
         id: meta
         uses: docker/metadata-action@v5
